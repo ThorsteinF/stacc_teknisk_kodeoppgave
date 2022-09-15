@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="description"
+			content="Teknisk intervju - Thorstein Fougner"
+		/>
+		<title> Teknisk intervju - Thorstein Fougner</title>
+	</head>
+
+	<body>
+		<div id="main">
+				<h1> PEP CHECK </h1>
+				<form action="" method = "POST">
+					<input type="text" placeholder="Name" name = "name">
+					<button type = "submit"> Submit </button>
+				</form>
+
+				<ul>
+					<% for (var i = 0; i < locals.text.length; i+=2) { %>
+					<li><%= locals.text[i] %></li>
+					<li><%= locals.text[i+1] %></li>
+					<br>
+					<% } %>
+				</ul>
+
+			<style>
+				@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+				body {
+					display: flex;
+					justify-content: center;
+					background-color: gray;
+					font-family: "Roboto", "Sans-serif";
+				}
+
+				#main {
+					text-align: center;
+					width: 600px;
+					height: auto;
+					border: 2px solid black;
+					background-color: white;
+				}
+
+				button {
+					padding: 15px;
+				}
+
+				input {
+					padding: 15px;
+				}
+			</style>
+		</div>
+	</body>
+</html>
