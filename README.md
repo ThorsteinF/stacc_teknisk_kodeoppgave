@@ -12,3 +12,6 @@ et JSON-objekt blir navn og "score" hentet ut og sendt tilbake til HTML-siden vi
 <h3>Oppbygning:</h3>
 <li>Webside: HTML, CSS, EJS</li>
 <li>Webserver: Node.js, express, node-fetch, nodemon</li>
+
+<h3> Hvordan kjøre programmet </h3>
+In en terminal, skriv "nodemon devStart server.js"
